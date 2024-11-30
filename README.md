@@ -31,7 +31,7 @@ Heroku (optional for deployment)
 Installation
 To run this project locally, follow these steps:
 1. Clone the repository
-git clone https://github.com/your-username/event-management-platform.git
+git clone https://github.com/sunitachoudhary0280/event-management-platform.git
 cd event-management-platform
 
 2. Backend Setup
@@ -75,6 +75,6 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Notes
-Make sure to replace https://github.com/your-username/event-management-platform.git with your actual GitHub repository URL.
+Make sure to replace https://github.com/sunitachoudhary0280/event-management-platform.git with your actual GitHub repository URL.
 You can add the Socket.io client and server code sections in the README as part of the "How Socket.io Works" section.
 You can also add any additional setup instructions if necessary (like configuring the database or environment variables).
