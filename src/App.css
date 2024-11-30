@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(to bottom, #ffcccc, #fff5ba, #b3d9ff);
+    color: #333;
+  }
+  
+  /* App Container */
+  .app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .header {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form */
+  .event-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .event-form input,
+  .event-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .event-form button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .event-form button:hover {
+    background: #0056b3;
+  }
+  
+  /* Event List */
+  .event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .event-card {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .event-card h3 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .event-card p {
+    margin: 5px 0;
+  }
+  
+  .event-card .btn {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .event-card .edit-btn {
+    background: #ffcc00;
+    color: #333;
+  }
+  
+  .event-card .edit-btn:hover {
+    background: #e6b800;
+  }
+  
+  .event-card .delete-btn {
+    background: #ff4d4d;
+    color: white;
+  }
+  
+  .event-card .delete-btn:hover {
+    background: #cc0000;
+  }
+  
